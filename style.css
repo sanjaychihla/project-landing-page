@@ -121,3 +121,24 @@ button {
 .common p {
     text-align: center;
 }
+
+.quote {
+    height: 30vh;
+    padding: 0 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    font-family: Arial;
+}
+
+.quote-text {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.author {
+    align-self: flex-end;
+}
