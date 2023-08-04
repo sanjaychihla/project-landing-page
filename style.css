@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.header {
+    background: #1f2937;
+    display: flex;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.header-logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8
+}
+
+a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #e5e7eb
+}
+
