@@ -163,3 +163,13 @@ button {
     color: #fff;
     background: #3882f6;
 }
+
+.copyright {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
+    color: #fff;
+    font-weight: 500;
+}
