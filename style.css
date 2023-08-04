@@ -40,7 +40,7 @@ a:last-child {
     background: #1f2937;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid red;
+    gap: 20px;
 }
 
 .main,
@@ -52,11 +52,13 @@ a:last-child {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 10px;
 }
 
 .main-text {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
+    margin-bottom: 10px;
 }
 
 button {
@@ -71,10 +73,12 @@ button {
 }
 
 .image {
-    color: black;
+    color: white;
     align-self: center;
-    padding: 80px;
-    background: white;
-    opacity: 0.3;
-    margin-right: 10%;;
+    padding: 100px;
+    background: gray;
+    opacity: 0.9;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
