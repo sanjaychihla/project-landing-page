@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    background: black;
+}
+
 .container {
     margin: 0 auto;
     width: 55vw;
+    background: white;
 }
 
 .header {
