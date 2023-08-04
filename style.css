@@ -64,8 +64,10 @@ a:last-child {
 button {
     background: #3882f6;
     color: #fff;
+    font-weight: 700;
     padding: 10px 20px;
     border-radius: 10px;
+    border: 2px solid white;
 }
 
 .main {
@@ -141,4 +143,23 @@ button {
 
 .author {
     align-self: flex-end;
+}
+
+.signup {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-bg {
+    display: flex;
+    gap: 100px;
+    padding: 40px 80px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    gao: 20px;
+    color: #fff;
+    background: #3882f6;
 }
