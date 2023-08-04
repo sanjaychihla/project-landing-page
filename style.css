@@ -6,7 +6,7 @@
 
 .container {
     margin: 0 auto;
-    width: 80vw;
+    width: 55vw;
 }
 
 .header {
@@ -17,6 +17,7 @@
 }
 
 .header-logo {
+    margin-left: 10%;;
     margin-right: auto;
     font-size: 24px;
     color: #f9faf8
@@ -29,3 +30,51 @@ a {
     color: #e5e7eb
 }
 
+a:last-child {
+    margin-right: 10%;;
+}
+
+.content {
+    display: flex;
+    height: 40vh;
+    background: #1f2937;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.main,
+.image{
+    flex-basis: 50%;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.main-text {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+button {
+    background: #3882f6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.main {
+    margin-left: 10%;
+}
+
+.image {
+    color: black;
+    align-self: center;
+    padding: 80px;
+    background: white;
+    opacity: 0.3;
+    margin-right: 10%;;
+}
